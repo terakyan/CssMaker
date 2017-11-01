@@ -27,6 +27,11 @@ class IndexConroller extends Controller
         return view('css-maker::index');
     }
 
+    public function getCssMaker()
+    {
+        return view('css-maker::css-maker');
+    }
+
     public function getPosts(
         PostsRepository $postsRepository
     )

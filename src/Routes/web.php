@@ -22,7 +22,7 @@
 
 //Routes
 Route::get('/', 'IndexConroller@getIndex');
-//Route::get('/posts', 'IndexConroller@getPosts');
+Route::get('/css-maker', 'IndexConroller@getCssMaker');
 //Route::get('/new-post', 'IndexConroller@getNewPost');
 //Route::post('/new-post', 'IndexConroller@postNewPost');
 //Route::get('/settings', 'IndexConroller@getSettings');
