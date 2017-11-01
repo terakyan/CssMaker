@@ -1,4 +1,19 @@
 {
     "name": "terakyan/css-maker",
-    "require": {}
+    "description": "This is a little neat helper for the validate forms cms",
+    "type": "app-plugin",
+    "license": "Apache2",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Terakyan\\CssMaker\\": "src/"
+        },
+        "files":[
+            "src/index.php"
+        ]
+    },
+    "version": "1.0.0"
 }
