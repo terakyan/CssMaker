@@ -22,7 +22,6 @@ class ModuleServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dd(55);
         $this->loadTranslationsFrom(__DIR__ . '/../views', 'css-maker');
         $this->loadViewsFrom(__DIR__ . '/../views', 'css-maker');
 

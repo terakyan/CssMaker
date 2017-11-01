@@ -5,7 +5,6 @@
             <h1 class="text-center">Css Maker Control</h1>
         </div>
     </div>
-
 @stop
 @section('CSS')
 @stop
